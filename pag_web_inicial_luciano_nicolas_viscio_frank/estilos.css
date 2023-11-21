@@ -1,0 +1,119 @@
+h1 {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#hmodif {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:rgb(179, 179, 179);
+    margin: 1;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra_nav {
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+  
+  li {
+    float: left; 
+}
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover {
+    background-color: #555;
+    color:rgb(212, 210, 210)
+}
+
+.espacios {
+    height: 20px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.tabla th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+}
+
+.tabla tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.tabla td:hover{
+    color:red
+}
+
+footer {
+    background-color:white; 
+    padding: 0px 16px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.audios {
+    padding-left: 110px ;
+    font-size: 20px;
+}
+
+.img {
+    float: left;
+    box-sizing: border-box;
+    transition: opacity 0.3s;
+}
+
+.img:hover {
+    opacity: 60%;
+}
+
+.contenedor {
+    overflow: hidden; 
+  }
+
+
+.contenido {
+    float: left;
+    width: 70%; 
+    box-sizing: border-box;
+    padding: 20px; 
+  }
+
+.video1 {
+    margin-left: 280px
+}
+
